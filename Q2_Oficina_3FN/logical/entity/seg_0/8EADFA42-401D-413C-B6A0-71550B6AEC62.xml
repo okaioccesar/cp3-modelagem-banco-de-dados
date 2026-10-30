@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8EADFA42-401D-413C-B6A0-71550B6AEC62" name="OF_SERVICO">
+  <ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+  <normalForm>Third</normalForm>
+  <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+    <Attribute name="Cod_Servico" id="D388E43F-7C0A-40CA-BC61-86D2E3B02C73">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>6EE49118-EC39-4D84-A5A1-F87C53E8294A</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="Descricao_Servico" id="692ABF80-8054-4CFB-B6FC-99CB3645C686">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>BA0799DE-75E6-417F-A2CE-0BD222678C00</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="Valor_Mao_Obra" id="DBF66B97-A15B-428D-831B-4A72CA2BED6C">
+      <use>0</use>
+      <logicalDatatype>LOGDT019</logicalDatatype>
+      <domain>A688D1A8-F8E8-431A-A220-E7BCFD89026E</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+  </attributes>
+  <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+    <identifier id="0D77AA1C-123F-412D-AC2F-340212EDB14A" name="PK_OF_SERVICO">
+      <pk>true</pk>
+      <usedAttributes>
+        <attributeRef>D388E43F-7C0A-40CA-BC61-86D2E3B02C73</attributeRef>
+      </usedAttributes>
+    </identifier>
+  </identifiers>
+</Entity>

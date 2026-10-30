@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Q2_Oficina_3FN" id="34ECC303-0DE7-4433-8238-4E2B7B984ECE" version="3.5">
+  <createdBy>Kaio Cesar de Sousa Silva</createdBy>
+  <ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+  <capitalNames>false</capitalNames>
+  <designId>34ECC303-0DE7-4433-8238-4E2B7B984ECE</designId>
+</OSDM_Design>

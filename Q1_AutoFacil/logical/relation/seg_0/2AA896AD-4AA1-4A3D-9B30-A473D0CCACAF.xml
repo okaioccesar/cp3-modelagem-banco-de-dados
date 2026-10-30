@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="opera_em" directorySegmentName="seg_0" id="2AA896AD-4AA1-4A3D-9B30-A473D0CCACAF">
+  <ownerDesignName>Q1_AutoFacil</ownerDesignName>
+  <sourcePk>1E52BD4A-E4BD-4D91-856D-4056CCC55D9E</sourcePk>
+  <identifying>false</identifying>
+  <optionalSource>true</optionalSource>
+  <optionalTarget>true</optionalTarget>
+  <sourceCardinality>*</sourceCardinality>
+  <sourceEntity>0C200046-DEB4-47A1-A4AE-FB5D5B049315</sourceEntity>
+  <targetCardinalityString>*</targetCardinalityString>
+  <targetEntity>41581BC0-0E1B-463B-B32C-6BE814F3686E</targetEntity>
+  <transferable>true</transferable>
+  <deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="compoe" directorySegmentName="seg_0" id="A3BECCFC-37BB-4D35-AF89-CB8F978613D1">
+  <ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+  <sourcePk>0D77AA1C-123F-412D-AC2F-340212EDB14A</sourcePk>
+  <identifying>true</identifying>
+  <optionalSource>true</optionalSource>
+  <optionalTarget>false</optionalTarget>
+  <sourceCardinality>1</sourceCardinality>
+  <sourceEntity>8EADFA42-401D-413C-B6A0-71550B6AEC62</sourceEntity>
+  <targetCardinalityString>*</targetCardinalityString>
+  <targetEntity>6C98005F-5AE4-4DEE-8BB7-BA1B8CDEAF31</targetEntity>
+  <transferable>true</transferable>
+  <deleteRule>NO ACTION</deleteRule>
+</Relation>

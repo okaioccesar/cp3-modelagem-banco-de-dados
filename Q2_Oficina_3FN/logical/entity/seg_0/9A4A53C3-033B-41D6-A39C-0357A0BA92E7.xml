@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A4A53C3-033B-41D6-A39C-0357A0BA92E7" name="OF_CLIENTE">
+  <ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+  <normalForm>Third</normalForm>
+  <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+    <Attribute name="ID_Cliente" id="1F7205B4-8193-4621-81FD-D4B55FB6814D">
+      <use>0</use>
+      <logicalDatatype>LOGDT019</logicalDatatype>
+      <domain>7FBACA7D-A830-4A72-A300-C30F5957F4C4</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="Nome_Cliente" id="A4AA7153-0534-4E38-B9D8-FEC49270EEE8">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>1C01E64A-0201-4FCF-8439-3F964E89177A</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="Rua" id="B3CEEFA6-913C-44B7-B637-43F5316D79B4">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>1C01E64A-0201-4FCF-8439-3F964E89177A</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="Numero" id="A05A9BBB-8D23-4F26-8E8C-A1C2CEB8BF3A">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>6EE49118-EC39-4D84-A5A1-F87C53E8294A</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="Bairro" id="04EDE0CE-0661-4FF2-B3AE-39341E2D39EA">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>43221788-5136-4FF7-805F-7D1A48209D91</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="Cidade" id="C924A337-FAF9-4904-9844-28192BFA61F8">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>43221788-5136-4FF7-805F-7D1A48209D91</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="UF" id="1A28CBF6-1172-47DD-99B7-6B23E22B4C1B">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>A38332B6-1E11-4D22-81B9-D922C2A3D1D4</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+  </attributes>
+  <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+    <identifier id="3E2A8E32-24EA-4917-A1F6-674996532A0B" name="PK_OF_CLIENTE">
+      <pk>true</pk>
+      <usedAttributes>
+        <attributeRef>1F7205B4-8193-4621-81FD-D4B55FB6814D</attributeRef>
+      </usedAttributes>
+    </identifier>
+  </identifiers>
+</Entity>

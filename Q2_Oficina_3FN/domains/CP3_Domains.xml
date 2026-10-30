@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="CP3_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="120" id="1C01E64A-0201-4FCF-8439-3F964E89177A">
+<createdTime>2026-10-28 02:17:07 UTC</createdTime>
+<ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>120</dataTypeSize>
+<fileName>CP3_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DATE" id="274C7C14-8B68-4A7A-B204-66CE56191FC1">
+<createdTime>2026-10-28 02:17:07 UTC</createdTime>
+<ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>CP3_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="80" id="43221788-5136-4FF7-805F-7D1A48209D91">
+<createdTime>2026-10-28 02:17:07 UTC</createdTime>
+<ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>80</dataTypeSize>
+<fileName>CP3_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="10" id="6EE49118-EC39-4D84-A5A1-F87C53E8294A">
+<createdTime>2026-10-28 02:17:07 UTC</createdTime>
+<ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>CP3_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="N0" id="7FBACA7D-A830-4A72-A300-C30F5957F4C4">
+<createdTime>2026-10-28 02:17:07 UTC</createdTime>
+<ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>CP3_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="2" id="A38332B6-1E11-4D22-81B9-D922C2A3D1D4">
+<createdTime>2026-10-28 02:17:07 UTC</createdTime>
+<ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>2</dataTypeSize>
+<fileName>CP3_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="N2" id="A688D1A8-F8E8-431A-A220-E7BCFD89026E">
+<createdTime>2026-10-28 02:17:07 UTC</createdTime>
+<ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>CP3_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="150" id="BA0799DE-75E6-417F-A2CE-0BD222678C00">
+<createdTime>2026-10-28 02:17:07 UTC</createdTime>
+<ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>150</dataTypeSize>
+<fileName>CP3_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Q1_AutoFacil" id="F20B8142-ED5B-400F-9213-E2E1DD43BDFC" version="3.5">
+  <createdBy>Kaio Cesar de Sousa Silva</createdBy>
+  <ownerDesignName>Q1_AutoFacil</ownerDesignName>
+  <capitalNames>false</capitalNames>
+  <designId>F20B8142-ED5B-400F-9213-E2E1DD43BDFC</designId>
+</OSDM_Design>

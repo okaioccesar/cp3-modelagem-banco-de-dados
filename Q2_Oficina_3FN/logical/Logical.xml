@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="009A04A4-FBA6-45D3-AC66-B76768438752" mainViewID="FD4F6D1B-30A9-4576-BFE2-DEB1761F0346">
+  <ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+  <shouldBeOpen>true</shouldBeOpen>
+</LogicalDesign>

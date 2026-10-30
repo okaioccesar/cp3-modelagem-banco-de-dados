@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sedia" directorySegmentName="seg_0" id="430685AF-DD53-4ADA-B96D-D3D4943C6036">
+  <ownerDesignName>Q1_AutoFacil</ownerDesignName>
+  <sourcePk>54D25021-7254-4542-92DB-028D7E99BA1E</sourcePk>
+  <identifying>false</identifying>
+  <optionalSource>true</optionalSource>
+  <optionalTarget>false</optionalTarget>
+  <sourceCardinality>1</sourceCardinality>
+  <sourceEntity>41581BC0-0E1B-463B-B32C-6BE814F3686E</sourceEntity>
+  <targetCardinalityString>*</targetCardinalityString>
+  <targetEntity>F676F2A1-B761-4911-A6F9-2D62A7F30C97</targetEntity>
+  <transferable>true</transferable>
+  <deleteRule>NO ACTION</deleteRule>
+</Relation>

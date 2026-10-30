@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F676F2A1-B761-4911-A6F9-2D62A7F30C97" name="AF_LOCACAO">
+  <ownerDesignName>Q1_AutoFacil</ownerDesignName>
+  <normalForm>Third</normalForm>
+  <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+    <Attribute name="codigo_locacao" id="770BA42E-BFF3-48E5-BA6E-5AB0F1F752EF">
+      <use>0</use>
+      <logicalDatatype>LOGDT019</logicalDatatype>
+      <domain>7F6A4A42-A107-4D58-9F73-3E8EC404C9DD</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="data_retirada" id="BF077041-B353-427E-A5EB-7395FDCC4E5B">
+      <use>0</use>
+      <logicalDatatype>LOGDT007</logicalDatatype>
+      <domain>2B827103-3E92-487D-959B-D685A728608B</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="data_devolucao" id="665F208E-87AB-47BF-A922-E28D856AE18F">
+      <use>0</use>
+      <logicalDatatype>LOGDT007</logicalDatatype>
+      <domain>2B827103-3E92-487D-959B-D685A728608B</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="status_locacao" id="72703CD2-6376-4C2C-91F4-298AE524999B">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>7A2BF034-C4DD-4E05-AE5A-A0E23F02626D</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+  </attributes>
+  <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+    <identifier id="FD5EDF17-E2FD-4697-9864-6D22BFFD05A5" name="PK_AF_LOCACAO">
+      <pk>true</pk>
+      <usedAttributes>
+        <attributeRef>770BA42E-BFF3-48E5-BA6E-5AB0F1F752EF</attributeRef>
+      </usedAttributes>
+    </identifier>
+  </identifiers>
+</Entity>

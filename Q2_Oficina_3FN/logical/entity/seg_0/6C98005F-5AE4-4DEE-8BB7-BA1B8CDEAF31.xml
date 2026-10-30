@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C98005F-5AE4-4DEE-8BB7-BA1B8CDEAF31" name="OF_ITEM_OS">
+  <ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+  <normalForm>Third</normalForm>
+  <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+    <Attribute name="Nr_OS" id="FEEAA603-E31F-4F77-B0D8-8D32B1323508">
+      <use>0</use>
+      <logicalDatatype>LOGDT019</logicalDatatype>
+      <domain>7FBACA7D-A830-4A72-A300-C30F5957F4C4</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="Cod_Servico" id="770A2B4B-698A-4D90-B542-6DDAC9A78DB2">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>6EE49118-EC39-4D84-A5A1-F87C53E8294A</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+  </attributes>
+  <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+    <identifier id="A6FA25B3-ADFB-4A92-A84C-05D53968E44C" name="PK_OF_ITEM_OS">
+      <pk>true</pk>
+      <usedAttributes>
+        <attributeRef>FEEAA603-E31F-4F77-B0D8-8D32B1323508</attributeRef>
+        <attributeRef>770A2B4B-698A-4D90-B542-6DDAC9A78DB2</attributeRef>
+      </usedAttributes>
+    </identifier>
+  </identifiers>
+</Entity>

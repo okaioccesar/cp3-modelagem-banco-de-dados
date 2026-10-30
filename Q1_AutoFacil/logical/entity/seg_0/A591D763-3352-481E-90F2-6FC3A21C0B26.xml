@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A591D763-3352-481E-90F2-6FC3A21C0B26" name="AF_CLIENTE">
+  <ownerDesignName>Q1_AutoFacil</ownerDesignName>
+  <normalForm>Third</normalForm>
+  <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+    <Attribute name="cpf_cliente" id="8FA8218F-47CE-4F42-8513-A6FEA85CAAC4">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>C6BC4D50-3829-4C53-949E-B4E3EFDD68AF</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="nome_completo" id="9CAEA39E-9A04-4D1A-A589-FC9D6D4E8AC9">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>5410AE93-2018-4987-8EB0-37B4FD652296</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="cnh" id="D6F42B42-5009-4C11-B26B-9301F89E59AA">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>C6BC4D50-3829-4C53-949E-B4E3EFDD68AF</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="telefone_contato" id="E4057516-21DD-4DC2-80F9-28E5229F4B6B">
+      <nullsAllowed>true</nullsAllowed>
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>19951846-4A84-43C5-97D2-80363BCD13D1</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+  </attributes>
+  <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+    <identifier id="F3A3B3A3-9526-4B10-A699-298107720EB1" name="PK_AF_CLIENTE">
+      <pk>true</pk>
+      <usedAttributes>
+        <attributeRef>8FA8218F-47CE-4F42-8513-A6FEA85CAAC4</attributeRef>
+      </usedAttributes>
+    </identifier>
+  </identifiers>
+</Entity>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F761D931-63C2-4FD3-A088-DA9B9BC2E3B2" name="OF_ORDEM_SERVICO">
+  <ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+  <normalForm>Third</normalForm>
+  <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+    <Attribute name="Nr_OS" id="B0549100-361E-43E2-B469-4CD4AD1CE85D">
+      <use>0</use>
+      <logicalDatatype>LOGDT019</logicalDatatype>
+      <domain>7FBACA7D-A830-4A72-A300-C30F5957F4C4</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="Data_Abertura" id="F0045635-85CF-40A4-8B6F-26718F255B80">
+      <use>0</use>
+      <logicalDatatype>LOGDT007</logicalDatatype>
+      <domain>274C7C14-8B68-4A7A-B204-66CE56191FC1</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="Data_Conclusao" id="7ABE62AE-BFD0-4C42-817E-933F055CF66E">
+      <nullsAllowed>true</nullsAllowed>
+      <use>0</use>
+      <logicalDatatype>LOGDT007</logicalDatatype>
+      <domain>274C7C14-8B68-4A7A-B204-66CE56191FC1</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="ID_Cliente" id="23F39A86-76C6-4B9E-8D1E-465B546CE013">
+      <use>0</use>
+      <logicalDatatype>LOGDT019</logicalDatatype>
+      <domain>7FBACA7D-A830-4A72-A300-C30F5957F4C4</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+  </attributes>
+  <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+    <identifier id="E61CF759-5AE2-4E8C-BA1C-D686F959AF06" name="PK_OF_ORDEM_SERVICO">
+      <pk>true</pk>
+      <usedAttributes>
+        <attributeRef>B0549100-361E-43E2-B469-4CD4AD1CE85D</attributeRef>
+      </usedAttributes>
+    </identifier>
+  </identifiers>
+</Entity>

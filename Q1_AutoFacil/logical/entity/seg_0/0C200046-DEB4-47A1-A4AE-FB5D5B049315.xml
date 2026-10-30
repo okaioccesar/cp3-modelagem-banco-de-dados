@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C200046-DEB4-47A1-A4AE-FB5D5B049315" name="AF_VEICULO">
+  <ownerDesignName>Q1_AutoFacil</ownerDesignName>
+  <normalForm>Third</normalForm>
+  <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+    <Attribute name="placa_veiculo" id="186C3386-16CE-4027-B5BB-45C9C3D0DF7B">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>403008D4-8C17-4933-9553-43B1AF98C845</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="modelo_categoria" id="441533DA-0E65-42F4-84A8-07DA39F82F92">
+      <use>0</use>
+      <logicalDatatype>LOGDT024</logicalDatatype>
+      <domain>6002A051-65C9-4F8C-B326-EAF39EAF7B82</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+    <Attribute name="valor_diaria" id="7BA19AF2-4D6A-4237-8ACE-C7266BE11309">
+      <use>0</use>
+      <logicalDatatype>LOGDT019</logicalDatatype>
+      <domain>DCA4C443-A3D1-4FA2-AED3-27BF5793C5CD</domain>
+      <ownDataTypeParameters>,,</ownDataTypeParameters>
+    </Attribute>
+  </attributes>
+  <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+    <identifier id="1E52BD4A-E4BD-4D91-856D-4056CCC55D9E" name="PK_AF_VEICULO">
+      <pk>true</pk>
+      <usedAttributes>
+        <attributeRef>186C3386-16CE-4027-B5BB-45C9C3D0DF7B</attributeRef>
+      </usedAttributes>
+    </identifier>
+  </identifiers>
+</Entity>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="participa" directorySegmentName="seg_0" id="2FC7AC25-2A35-4A8B-A8C4-B0587FE95AA5">
+  <ownerDesignName>Q1_AutoFacil</ownerDesignName>
+  <sourcePk>1E52BD4A-E4BD-4D91-856D-4056CCC55D9E</sourcePk>
+  <identifying>false</identifying>
+  <optionalSource>true</optionalSource>
+  <optionalTarget>false</optionalTarget>
+  <sourceCardinality>1</sourceCardinality>
+  <sourceEntity>0C200046-DEB4-47A1-A4AE-FB5D5B049315</sourceEntity>
+  <targetCardinalityString>*</targetCardinalityString>
+  <targetEntity>F676F2A1-B761-4911-A6F9-2D62A7F30C97</targetEntity>
+  <transferable>true</transferable>
+  <deleteRule>NO ACTION</deleteRule>
+</Relation>

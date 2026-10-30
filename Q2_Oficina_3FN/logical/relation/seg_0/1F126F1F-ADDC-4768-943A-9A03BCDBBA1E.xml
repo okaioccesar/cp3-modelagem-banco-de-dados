@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possui" directorySegmentName="seg_0" id="1F126F1F-ADDC-4768-943A-9A03BCDBBA1E">
+  <ownerDesignName>Q2_Oficina_3FN</ownerDesignName>
+  <sourcePk>3E2A8E32-24EA-4917-A1F6-674996532A0B</sourcePk>
+  <identifying>false</identifying>
+  <optionalSource>true</optionalSource>
+  <optionalTarget>false</optionalTarget>
+  <sourceCardinality>1</sourceCardinality>
+  <sourceEntity>9A4A53C3-033B-41D6-A39C-0357A0BA92E7</sourceEntity>
+  <targetCardinalityString>*</targetCardinalityString>
+  <targetEntity>F761D931-63C2-4FD3-A088-DA9B9BC2E3B2</targetEntity>
+  <transferable>true</transferable>
+  <deleteRule>NO ACTION</deleteRule>
+</Relation>
